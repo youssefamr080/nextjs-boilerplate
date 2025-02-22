@@ -2,15 +2,15 @@ import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#8B4513", // لون بني داكن (يمكن تغييره حسب التصميم)
+        secondary: "#D2B48C", // لون بيج فاتح للهدايا
+        accent: "#FFD700", // لون ذهبي فاخر
       },
     },
   },

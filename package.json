@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "cadoz",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@heroicons/react": "^2.2.0",
+    "@types/lodash": "^4.17.15",
+    "@types/react-toastify": "^4.0.2",
+    "@uidotdev/usehooks": "^2.4.1",
+    "framer-motion": "^12.4.3",
+    "fuse.js": "^7.1.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.475.0",
+    "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.4.0",
+    "react-toastify": "^11.0.3",
+    "swiper": "^11.2.2",
+    "three": "^0.173.0",
+    "usehooks-ts": "^3.1.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
   }
 }
